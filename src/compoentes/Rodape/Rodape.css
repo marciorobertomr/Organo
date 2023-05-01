@@ -1,0 +1,33 @@
+.rodape_app {
+    background-image: url(../../../public/imagens/rodape.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 1.2em;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rodape_app section {
+    /* flex: 1; */
+    width: 33.3%;
+}
+
+.lista {
+    display: flex;
+    margin: 0 25%;
+}
+
+.lista li {
+    list-style: none;
+}
+
+.lista img {
+    width: 40%;
+}
